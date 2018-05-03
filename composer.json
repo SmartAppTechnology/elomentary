@@ -1,5 +1,5 @@
 {
-  "name": "tableau-mkt/elomentary",
+  "name": "SmartAppTechnology/elomentary",
   "description": "The simple PHP Eloqua REST API client; object oriented, tested, and documented for PHP 5.3+.",
   "keywords": ["eloqua", "rest", "api"],
   "homepage": "https://github.com/tableau-mkt/elomentary",
@@ -19,6 +19,9 @@
     "php": ">=5.3.3",
     "ext-curl": "*",
     "guzzle/guzzle": ">=3.7"
+  },
+  "replace" : {
+    "tableau-mkt/elomentary" : "<0.5.2"
   },
   "require-dev": {
     "phpunit/phpunit": "3.7.*",
